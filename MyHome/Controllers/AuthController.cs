@@ -26,7 +26,7 @@ namespace MyHome.Controllers
             if (!response.Success) {
                 return BadRequest(response);
             }
-            return Ok(response);
+            return Ok();
          
         }
 
