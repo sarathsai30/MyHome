@@ -15,7 +15,7 @@ namespace MyHome.Controllers
     public class AuthController : ControllerBase
     {
         private IAuthRepository _authRepo;
-        public AuthController(AuthRepository authRepo)
+        public AuthController(IAuthRepository authRepo)
         {
             _authRepo = authRepo;
         }
